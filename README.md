@@ -8,4 +8,5 @@ Steps taken:
 - Connected to database using DataGrip
 - Using SQL, analyzed the top 10 avg. years for rain precipitation in Seattle
 
-https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png
+![image](https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png
+
