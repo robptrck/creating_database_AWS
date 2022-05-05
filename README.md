@@ -1,5 +1,7 @@
 The goal of this project was to learn how to create a relational database, import a dataset and query the data.
 
+Steps taken:
+
 - Created a relational database using AWS RDS
 - Administered database with postgreSQL pgAdmin
 - Imported Seattle Rain History dataset from Kaggle (https://www.kaggle.com/datasets/rtatman/did-it-rain-in-seattle-19482017)
