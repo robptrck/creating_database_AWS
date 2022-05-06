@@ -10,7 +10,7 @@
 
 ## Here's what it looks like...
 
-## Querying the **top 10 avg. years of precipiation (in inches) in Seattle, WA** using DataGrip:
+## Querying the **top 10 avg. years of precipitation (in inches) in Seattle, WA** using DataGrip:
 
 <img src="https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png" width="500">
 
@@ -26,7 +26,7 @@
 
 - I **grouped the results by year** using the **extract function**.
 
-- I selected the **avg_prcp, year and ranking columns** from my CTE and only included the results that were less than or equal to a rank of 10. This is to show the top 10 results and **include any potential duplicates**, although again that's not likely to occur in this dataset).
+- I selected the **avg_prcp, year and ranking columns** from my CTE and only included the results that were less than or equal to a rank of 10. This is to show the top 10 results and **include any potential duplicates**, although again that's not likely to occur in this dataset.
 
 
 ## Using pgAdmin to create a table and import data:
