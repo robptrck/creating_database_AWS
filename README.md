@@ -24,7 +24,7 @@
 
 - I **ordered the ranking by the average precipiation in descending order**, to start with the highest amount of precipiation to the lowest.
 
-- I **grouped the results** by year using the **extract function**.
+- I **grouped the results by year** using the **extract function**.
 
 - I selected the **avg_prcp, year and ranking columns** from my CTE and only included the results that were less than or equal to a rank of 10. This is to show the top 10 results and **include any potential duplicates**, although again that's not likely to occur in this dataset).
 
