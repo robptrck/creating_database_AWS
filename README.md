@@ -16,7 +16,7 @@
 
 ## What am I doing here?
 
-- I created a **CTE** and used **dense_rank()** over the rounded average precipation. 
+- I created a **CTE** and used **dense_rank()** over the **rounded average precipation per year**. 
 
 - I **rounded the avg. precipiation** by 6 decimal places because the original dataset included more decimals than I required for my results. 
 
@@ -26,7 +26,7 @@
 
 - I **grouped the results** by year using **extract function**.
 
-- I selected the avg_prcp, year and ranking columns from my CTE and **only included the results that were less than or equal to 10**. This is to show the top 10 results and include any potential duplicates, although again that's not likely to occur in this dataset).
+- I selected the **avg_prcp, year and ranking columns** from my CTE and only included the results that were less than or equal to 10. This is to show the **top 10 results and include any potential duplicates**, although again that's not likely to occur in this dataset).
 
 
 ## Using pgAdmin to create a table and import data:
