@@ -10,7 +10,7 @@
 
 ## Here's what it looks like...
 
-## Querying the **top 10 avg. years of precipiation (inches) in Seattle, WA** using DataGrip:
+## Querying the **top 10 avg. years of precipiation (in inches) in Seattle, WA** using DataGrip:
 
 <img src="https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png" width="500">
 
@@ -18,15 +18,15 @@
 
 - I created a **CTE** and used **dense_rank()** over the **rounded average precipation per year**. 
 
-- I **rounded the avg. precipiation** by 6 decimal places because the original dataset included more decimals than I required for my results. 
+- I **rounded the avg. precipiation** by 6 decimal places because the original dataset included more decimals than I required. 
 
-- I used **dense_rank because I wanted to include any potential duplicate results**, although that would not likely occur in this scenario.
+- I used **dense_rank** because I wanted to **include any potential duplicate results**, although that would not likely occur in this scenario.
 
 - I **ordered the ranking by the average precipiation in descending order**, to start with the highest amount of precipiation to the lowest.
 
-- I **grouped the results** by year using **extract function**.
+- I **grouped the results** by year using the **extract function**.
 
-- I selected the **avg_prcp, year and ranking columns** from my CTE and only included the results that were less than or equal to 10. This is to show the top 10 results and **include any potential duplicates**, although again that's not likely to occur in this dataset).
+- I selected the **avg_prcp, year and ranking columns** from my CTE and only included the results that were less than or equal to a rank of 10. This is to show the top 10 results and **include any potential duplicates**, although again that's not likely to occur in this dataset).
 
 
 ## Using pgAdmin to create a table and import data:
