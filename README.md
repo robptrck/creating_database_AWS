@@ -15,4 +15,4 @@ Query in DataGrip
 
 Using pgAdmin to create tables and import data
 
-<img src="https://user-images.githubusercontent.com/93350017/167046224-9b33a905-5557-4e8c-87e1-72bc64818c77.png" width="700">
+<img src="https://user-images.githubusercontent.com/93350017/167046224-9b33a905-5557-4e8c-87e1-72bc64818c77.png" width="1100">
