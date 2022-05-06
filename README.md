@@ -11,8 +11,8 @@ Steps taken:
 
 Query in DataGrip
 
-<img src="https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png" width="700">
+<img src="https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png" width="500">
 
 Using pgAdmin to create tables and import data
 
-<img src="https://user-images.githubusercontent.com/93350017/167046224-9b33a905-5557-4e8c-87e1-72bc64818c77.png" width="1000">
+<img src="https://user-images.githubusercontent.com/93350017/167046224-9b33a905-5557-4e8c-87e1-72bc64818c77.png" width="700">
