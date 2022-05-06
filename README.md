@@ -5,7 +5,7 @@
 - Created a **relational database** using **AWS RDS**
 - Created a **data table** with **postgreSQL pgAdmin**
 - **Imported** Seattle Rain History dataset from **Kaggle** (https://www.kaggle.com/datasets/rtatman/did-it-rain-in-seattle-19482017)
-- **Connected to my database** using **DataGrip**
+- **Connected to database** using **DataGrip**
 - Using **SQL**, **analyzed the top 10 avg. years for rain precipitation in Seattle, WA**
 
 ## Here's what it looks like...
