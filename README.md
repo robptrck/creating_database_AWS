@@ -22,7 +22,7 @@
 
 - I used **dense_rank** because I wanted to **include any potential duplicate results**, although that would not likely occur in this scenario.
 
-- I **ordered the ranking by the average precipiation in descending order**, to start with the highest amount of precipiation to the lowest.
+- I **ordered the ranking by the average precipiation in descending order**, to start with the highest amount of precipitation to the lowest.
 
 - I **grouped the results by year** using the **extract function**.
 
