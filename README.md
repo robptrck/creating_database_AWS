@@ -10,4 +10,5 @@ Steps taken:
 
 
 Query in DataGrip
+
 <img src="https://user-images.githubusercontent.com/93350017/167045246-87af31d8-4200-4200-bca4-b37e2450e5a0.png" width="700">
