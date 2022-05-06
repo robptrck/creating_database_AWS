@@ -1,4 +1,4 @@
-The goal of this project was to learn how to create a relational database, import a dataset and query the data.
+The goal of this project was to learn how to create a relational database in AWS, import a dataset and query the data.
 
 Steps taken:
 
