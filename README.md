@@ -17,17 +17,18 @@ Querying the top 10 avg. years of precipiation in Seattle, WA using DataGrip:
 
 What am I doing here?
 
-I created a CTE and used dense_rank() over the rounded average precipation. 
+- I created a CTE and used dense_rank() over the rounded average precipation. 
 
-I rounded the avg. precipiation by 6 decimal places because the original dataset included a lot of decimals. 
+- I rounded the avg. precipiation by 6 decimal places because the original dataset included more decimals than I required for my results. 
 
-I used dense_rank because I wanted to include any duplicate results, although that would not likely occur in this scenario it is good practice.
+- I used dense_rank because I wanted to include any potential duplicate results, although that would not likely occur in this scenario.
 
-I ordered the ranking by the average precipiation in descending order, to start with the highest amount of precipiation.
+- I ordered the ranking by the average precipiation in descending order, to start with the highest amount of precipiation to the lowest.
 
-I grouped the results by year using extract(year from date).
+- I grouped the results by year using extract function.
 
-I selected the avg_prcp, year and ranking columns from the CTE and only included the results <= 10 to show the top 10 (including any potential duplicates, although again that's not likely to occur with this dataset)/
+- I selected the avg_prcp, year and ranking columns from my CTE and only included the results that were less than or equal to 10. This is to show the top 10 results and include any potential duplicates, although again that's not likely to occur in this dataset).
+
 
 Using pgAdmin to create a table and import data:
 
